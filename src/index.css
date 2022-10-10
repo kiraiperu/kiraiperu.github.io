@@ -79,7 +79,7 @@ body {
 .linea {
   border: 2px solid black;
   background-size: 50px;
-  width: 99vw;
+  width: 100%;
 }
 
 .designcont {
@@ -92,7 +92,6 @@ body {
   align-items: center;
   background: url("./assets/metalicback.jpg");
   background-size: 80vw;
-  max-height: calc(100vh - 170px);
   width: 80vw;
   max-width: 1200px;
   border: 3px solid black;
