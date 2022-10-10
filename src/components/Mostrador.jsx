@@ -37,7 +37,7 @@ const Mostrador = (props) => {
                 <img className="mostimg" src={showimg}></img>
                 <img className="rightarr" src={rightimg} onClick={handleRight}></img>
             </div>      
-            <nav className="linea"></nav>
+            <nav className="linea">NUESTROS DISEÑOS</nav>
         </div>
     )
 }
