@@ -41,7 +41,7 @@ body {
   background: url("./assets/lowop.png");
   display: flex;
   background-color: white;
-  height: 93vh;
+  height: calc(100vh - 90px);
   flex-direction: column;
   overflow-y: auto;
   align-items: center;
