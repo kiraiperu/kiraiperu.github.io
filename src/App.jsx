@@ -7,6 +7,7 @@ function App() {
 
   const botoneslist = botones
 
+  
   return (
     <div className="App">
       <Nav botones={botones}/>
