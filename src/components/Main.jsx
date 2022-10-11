@@ -6,7 +6,7 @@ import Mostrador from "./Mostrador"
 const Main = () => {
 
     const designelems = designs.map((design) => {
-        return <><Design {...design} />{design.id != 3 && <hr className="dhr"></hr>}</>
+        return <><Design {...design} />{design.id != 3 }</>
     })
 
     return(
