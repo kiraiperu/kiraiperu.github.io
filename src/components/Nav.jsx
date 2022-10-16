@@ -4,7 +4,7 @@ const Nav = (props) => {
     
     
     const botones = props.botones.map((boton) => {
-        return <a href={boton.link} target="_blank"><div className="navbuttoncont"><img className="navbuttonimg" src={boton.img}></img></div></a>
+        return <a key={boton.id} href={boton.link} target="_blank"><div className="navbuttoncont"><img className="navbuttonimg" src={boton.img}></img></div></a>
     })
 
     return(
